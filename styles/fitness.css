@@ -36,23 +36,25 @@ body{
     color: rgb(255, 255, 255);
 }
 .nav-links{
-    width: 470px;
+    width: 485px;
     height: 40px;
     font-size: 18px;
-    padding: 1px;
-    padding-left: 0;
+    padding: 3px;
+    /* padding-left: 0; */
     border: 1px solid rgb(33, 33, 33);
-    margin-right: 10px;
     border-radius: 40px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
+
 .home-btn{
-    width: 80px;
+    margin: 0 auto;
+    width: 85px;
     background-color: rgb(230, 83, 60);
-    padding: 8px;
+    padding: 10px;
     border-radius: 45px;
 
 }
